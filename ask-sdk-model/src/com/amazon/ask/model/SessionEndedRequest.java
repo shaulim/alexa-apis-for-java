@@ -107,6 +107,7 @@ public final class SessionEndedRequest extends com.amazon.ask.model.Request {
   }
 
   public static class Builder {
+    private String type;
     private String requestId;
     private OffsetDateTime timestamp;
     private String locale;
